@@ -8,7 +8,7 @@ export default defineConfig({
             default: "uv",
             uv: true,
             scramjet: false,
-            rammerhead: true,
+            rammerhead: false,
         }),
         dreamlandPlugin(),
     ],
