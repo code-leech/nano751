@@ -5,8 +5,10 @@ import { ChemicalVitePlugin } from "chemicaljs";
 export default defineConfig({
     plugins: [
         ChemicalVitePlugin({
+            default: "uv",
+            uv: true,
             scramjet: false,
-            rammerhead: false,
+            rammerhead: true,
         }),
         dreamlandPlugin(),
     ],
